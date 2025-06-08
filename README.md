@@ -97,7 +97,23 @@ python Frontend_RaspberryPi/main_CLI.py
 - Used Open-Meteo API to get the weather data.
   - https://open-meteo.com/en/docs
 
-## 7. License
+## 7. Server IP Configuration (Optional)
+
+- To update the `API_BASE_URL` for clients:
+
+```bash
+python set_server_ip.py
+```
+
+- This script will update all related files automatically.
+  - The files that will be updated are :
+    - `Frontend_RaspberryPi/Screens/alarm_set_screen.py`
+    - `Frontend_RaspberryPi/Services/alarm_manager.py`
+    - `Frontend_RaspberryPi/Services/memo_loader.py`
+    - `Frontend_RaspberryPi/Services/weather_api.py`
+    - `Frontend_RaspberryPi/main_CLI.py`
+
+## 8. License
 
 - This project is licensed under the MIT License.
 - [LICENSE](LICENSE)
