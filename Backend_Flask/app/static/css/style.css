@@ -1,0 +1,58 @@
+.btn-group {
+    flex-wrap: wrap;
+}
+
+.btn-group .btn {
+    flex: 1;
+    min-width: 40px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alarm-info, .memo-info {
+    flex: 1;
+}
+
+.alarm-actions, .memo-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.alarm-time {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.alarm-label {
+    color: #666;
+}
+
+.alarm-days {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.memo-content {
+    white-space: pre-wrap;
+}
+
+.memo-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        flex-direction: column;
+    }
+    
+    .btn-group .btn {
+        width: 100%;
+        border-radius: 0.25rem !important;
+        margin: 2px 0;
+    }
+} 

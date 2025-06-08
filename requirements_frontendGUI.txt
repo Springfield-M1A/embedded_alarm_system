@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+PyQt6
+requests
+opencv-python-headless
+mediapipe
+python-dateutil

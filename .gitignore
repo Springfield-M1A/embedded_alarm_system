@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*.so
+*.pyd
+*.dll
+
+# Virtual environment
+venv/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Extra
+instance/
+alarms.db
