@@ -116,4 +116,4 @@ python set_server_ip.py
 ## 8. License
 
 - This project is licensed under the MIT License.
-- [LICENSE](LICENSE)
+- [LICENSE](LICENSE.md)
